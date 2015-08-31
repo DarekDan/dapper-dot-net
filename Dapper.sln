@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22728.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperTests NET40", "Tests\DapperTests NET40.csproj", "{A2A80512-11F4-4028-A995-505463632C84}"
 EndProject
@@ -61,6 +61,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.EntityFramework NET45 SNK", "Dapper.EntityFramework NET45 SNK\Dapper.EntityFramework NET45 SNK.csproj", "{7169A2C1-F57E-4288-B22D-52394DD2EC06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.SqlBuilder NET45", "Dapper.SqlBuilder NET45\Dapper.SqlBuilder NET45.csproj", "{B83D86B2-79C0-46AA-B51B-03730256FAAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{39DB3D74-E646-4CC3-A4DC-F19313A2CD74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.NET45.Tests", "UnitTests\Dapper.NET45.Tests\Dapper.NET45.Tests.csproj", "{857A1465-6E02-461C-9EBB-D01111183BAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -282,8 +286,21 @@ Global
 		{B83D86B2-79C0-46AA-B51B-03730256FAAC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B83D86B2-79C0-46AA-B51B-03730256FAAC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B83D86B2-79C0-46AA-B51B-03730256FAAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{857A1465-6E02-461C-9EBB-D01111183BAC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{857A1465-6E02-461C-9EBB-D01111183BAC} = {39DB3D74-E646-4CC3-A4DC-F19313A2CD74}
 	EndGlobalSection
 EndGlobal

@@ -9,3 +9,5 @@ glob:Dapper.Contrib/NuGet.exe
 *.nupkg
 */NuGet.exe
 _ReSharper.*
+packages/*
+!packages/repositories.config
